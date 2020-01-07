@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
 
 :root {
     --main-bg: #343d46;
     --color-light: #f7f4f4;
     --color-light-gray: #a7adba;
-    --details-light-blue: #BEE0EA;
+    --color-title: #6A7687;
     --color-steal-blue: #9DC1D9;
-  }
+    --details-light-blue: #BEE0EA;
+}
 
 
 html {
@@ -58,6 +60,17 @@ html {
     justify-content: space-around;
     align-items: center;
 }
+
+.title h1{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size:5rem;
+    color: var(--color-title);
+}
+
+.title h1 i{
+    color: var(--color-steal-blue);
+}
     
   /*///////////////////////////
   // END - Navigation Style
@@ -108,64 +121,64 @@ html {
 /*A*/
 div[data-key="65"]{
     position: absolute; 
-    top: 27%; 
-    left: 26%;
+    top: 55%; 
+    left: 27%;
 }
 
 /*S*/
 div[data-key="83"]{
     position: absolute; 
-    top: 68%; 
-    left: 18.5%;
+    top: 97%; 
+    left: 19.5%;
 }
 
 /*D*/
 div[data-key="68"]{
     position: absolute; 
-    top: 61%; 
-    left: 51%;
+    top: 85%; 
+    left: 51.8%;
 }
 
 /*F*/
 div[data-key="70"]{
     position: absolute; 
-    top: 25%; 
-    left: 72.5%;
+    top: 53%; 
+    left: 73%;
 }
 
 /*G*/
 div[data-key="71"]{
     position: absolute; 
-    top: 79%; 
-    left: 37%;
+    top: 105%; 
+    left: 38%;
 }
 
 /*H*/
 div[data-key="72"]{
     position: absolute; 
-    top: 46.5%; 
-    left: 87%;
+    top: 75.5%; 
+    left: 88%;
 }
 
 /*J*/
 div[data-key="74"]{
     position: absolute; 
-    top: 63.5%; 
-    left: 74%;
+    top: 92.5%; 
+    left: 75%;
 }
 
 /*K*/
 div[data-key="75"]{
     position: absolute; 
-    top: 43.5%; 
-    left: 40%;
+    top: 72.5%; 
+    left: 41%;
 }
 
 /*L*/
 div[data-key="76"]{
     position: absolute; 
-    top: 43.5%; 
-    left: 62%;
+    top: 72.5%; 
+    left: 63%;
 }
 
 .sound {
