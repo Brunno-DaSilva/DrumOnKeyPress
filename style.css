@@ -1,3 +1,13 @@
+
+:root {
+    --main-bg: #343d46;
+    --color-light: #f7f4f4;
+    --color-light-gray: #a7adba;
+    --details-light-blue: #BEE0EA;
+    --color-steal-blue: #9DC1D9;
+  }
+
+
 html {
     font-size: 10px;
   }
@@ -9,8 +19,6 @@ html {
 
   }
 
-
-
    /*///////////////////////////
   // Navigation Style
   ///////////////////////////*/
@@ -18,13 +26,14 @@ html {
   
 .navbar {
     height: 50px;
-    background-color: #343d46;
+    background-color: var(--main-bg);
     text-align: center;
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid var(--details-light-blue);
 }
 
 .navbar img{
@@ -33,14 +42,14 @@ html {
 }
 .navbar a{
    text-decoration: none;
-   color: whitesmoke; 
+   color: var(--color-light); 
    letter-spacing: 1px;
    padding: 10px;
    font-size: 15px;
    font-family: 'Muli', sans-serif;
 }
 .navbar a:hover{
-    color: #a7adba;
+    color: var(--color-light-gray);
  }
 
 .navbar-items{
@@ -49,9 +58,7 @@ html {
     justify-content: space-around;
     align-items: center;
 }
-  
-
-  
+    
   /*///////////////////////////
   // END - Navigation Style
   ///////////////////////////*/
@@ -60,6 +67,8 @@ html {
   .container{
     background-image: url("drumKit.jpg");
     background-size: cover;
+    width: 100%; 
+    height: auto;
   }
 
   .keys {
@@ -77,13 +86,14 @@ html {
     font-size: 1.5rem;
     padding: 1rem .5rem;
     transition: all .07s ease;
-    width: 10rem;
+    width: 7rem;
     text-align: center;
-    color: white;
-    background: rgba(0,0,0,0.4);
+    color: var(--color-light);
+    background: var(--main-bg);
+    opacity: .95;
     text-shadow: 0 0 .5rem black;
   }
-  
+
   .playing {
     transform: scale(1.1);
     border-color: #ffc600;
@@ -92,13 +102,76 @@ html {
   
   kbd {
     display: block;
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
-  
-  .sound {
+
+/*A*/
+div[data-key="65"]{
+    position: absolute; 
+    top: 27%; 
+    left: 26%;
+}
+
+/*S*/
+div[data-key="83"]{
+    position: absolute; 
+    top: 68%; 
+    left: 18.5%;
+}
+
+/*D*/
+div[data-key="68"]{
+    position: absolute; 
+    top: 61%; 
+    left: 51%;
+}
+
+/*F*/
+div[data-key="70"]{
+    position: absolute; 
+    top: 25%; 
+    left: 72.5%;
+}
+
+/*G*/
+div[data-key="71"]{
+    position: absolute; 
+    top: 79%; 
+    left: 37%;
+}
+
+/*H*/
+div[data-key="72"]{
+    position: absolute; 
+    top: 46.5%; 
+    left: 87%;
+}
+
+/*J*/
+div[data-key="74"]{
+    position: absolute; 
+    top: 63.5%; 
+    left: 74%;
+}
+
+/*K*/
+div[data-key="75"]{
+    position: absolute; 
+    top: 43.5%; 
+    left: 40%;
+}
+
+/*L*/
+div[data-key="76"]{
+    position: absolute; 
+    top: 43.5%; 
+    left: 62%;
+}
+
+.sound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: var(--color-steal-blue);
   }
   
