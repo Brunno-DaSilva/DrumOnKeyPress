@@ -1,4 +1,4 @@
-# DrumOnKeyPress
+# DrumOnKeyPress :drum:
 
 
 Play Drum by pressing the selected Keys on your keyboard. 
@@ -9,4 +9,14 @@ Play Drum by pressing the selected Keys on your keyboard.
 | :-----: | :-----: | :-----: | :-----:| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Label   |  Clap   |  Hithat |  Kick  | Openhat |  Boom   |   Ride  |  Snare  |   Tom   |   Tink  |
 
-# Demo https://dasilvabrunotexas.github.io/DrumOnKeyPress/
+## Demo and Tools
+
+Tools: 
+ * HTML
+ * CSS
+ * JavaScript 
+
+Demo: 
+- https://dasilvabrunotexas.github.io/DrumOnKeyPress/
+
+
