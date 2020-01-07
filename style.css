@@ -1,15 +1,67 @@
 html {
     font-size: 10px;
-    background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-    background-size: cover;
   }
   
-  body,html {
+  body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+
   }
+
+
+
+   /*///////////////////////////
+  // Navigation Style
+  ///////////////////////////*/
+
   
+.navbar {
+    height: 50px;
+    background-color: #343d46;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img{
+    width: 25px;
+    height: auto;
+}
+.navbar a{
+   text-decoration: none;
+   color: whitesmoke; 
+   letter-spacing: 1px;
+   padding: 10px;
+   font-size: 15px;
+   font-family: 'Muli', sans-serif;
+}
+.navbar a:hover{
+    color: #a7adba;
+ }
+
+.navbar-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+
+  
+  /*///////////////////////////
+  // END - Navigation Style
+  ///////////////////////////*/
+
+
+  .container{
+    background-image: url("drumKit.jpg");
+    background-size: cover;
+  }
+
   .keys {
     display: flex;
     flex: 1;
