@@ -64,8 +64,10 @@ html {
 .title h1{
     font-family: 'Rock Salt', cursive;
     text-align: center;
-    font-size:5rem;
+    font-size:3rem;
     color: var(--color-title);
+    display: flex; 
+
 }
 
 .title h1 i{
@@ -80,8 +82,8 @@ html {
   .container{
     background-image: url("drumKit.jpg");
     background-size: cover;
-    width: 100%; 
-    height: auto;
+    width: 100vw; 
+    min-height: 100vh;
   }
 
   .keys {
